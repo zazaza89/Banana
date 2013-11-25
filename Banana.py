@@ -1,6 +1,6 @@
 import praw
 r = praw.Reddit('just having fun learning with /u/IBotaBanana')
-r.login('IBotABanana', 'Jackieaa1')
+r.login('username', 'password')
 submission = r.get_submission(submission_id='1rehmx')
 flat_comments = praw.helpers.flatten_tree(submission.comments)
 already_done = set()
