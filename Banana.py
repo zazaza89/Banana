@@ -8,3 +8,4 @@ for comment in flat_comments:
   if comment.body == "I'm not worried" and comment.id not in already_done:
     comment.reply('How can you not be worried?')
     already_done.add(comment.id)
+[str(comment) for comment in flat_comments]
