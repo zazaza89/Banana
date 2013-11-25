@@ -1,3 +1,4 @@
+import praw
 r = praw.Reddit('just having fun learning with /u/IBotaBanana')
 r.login('IBotABanana', 'Jackieaa1')
 submission = r.get_submission(submission_id='1rehmx')
